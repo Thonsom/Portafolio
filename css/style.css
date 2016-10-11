@@ -1,0 +1,128 @@
+.biografia{
+    text-align: justify;
+    font-style: italic;
+}
+
+.contacto{
+   background-image: url('../img/download19.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: white;
+   padding: 20px;
+}
+.formulario{
+    padding: 40px;
+}
+.foto img{
+  border-radius: 100%;
+  height: auto;
+  width: 250px;
+  }
+
+.jumbotron{
+    background-image: url('../img/download25.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin-top: 50px;
+}
+.jumbotron img{
+    border: solid 2px white;
+}
+.grid{
+  display: flex; 
+  flex-flow: row wrap;
+}
+.guion{
+    border: dashed 3px black;
+}
+.guion-acercade0{
+    border: solid 2px white;
+}
+.guion-acercade1{
+    border: dashed 1px white;
+}
+.guion-contacto{
+    border: dashed 3px white;
+}
+html{
+    overflow-x: hidden;
+}
+#inputarea{
+   resize: none;
+}
+.navbar-default{
+    background-color:#313750 ;
+    font-weight: bold;
+}
+.msn-contacto{
+    font-style: italic;
+    margin-top: 70px;
+}
+.portafolio .grid li  {
+  max-width: 400px;
+  max-height: auto;
+  padding: 20px ;
+  margin: auto;
+}
+footer{
+    background-color:#313750;
+    color: white;
+    height: 80px;
+    margin-top: -19px;
+    padding-top: 15px;
+}
+.perfil{
+    text-align: center;
+}
+blockquote{
+    font-style: italic;
+}
+
+@media(max-width: 360px){
+  .biografia{
+      text-align: center;
+  }
+  .foto img{
+  border-radius: 50%;
+  height: auto;
+  margin:0 30px 0 40px;
+  image-orientation: flip;
+  width: 240px;
+  }
+  footer{
+    margin-top: -20px;
+    padding-top: 15px;
+    
+  }
+
+  .msn-contacto{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+@media(min-width: 768px){
+    .biografia{
+        text-align: center;
+    }
+    .jumbotron{
+        height: 350px;
+        padding-bottom: 300px;
+    }
+    
+}
+@media(max-width: 1000px){
+    .grid{
+        display: flex; 
+        flex-flow: row wrap;
+    }
+
+    .portafolio .grid li{
+        max-width: 300px;
+        padding: 20px ;
+        margin: auto;
+    }
+}
+
