@@ -103,6 +103,9 @@
                                 </h4>
                             </div>
                             <div class="col-sm-6 col-md-6">
+                                
+                                <script type="text/javascript">var submitted=false;</script>
+                                <iframe name="hidden_iframe" id="hidden_iframe"  onload="if(submitted) {}"></iframe>
                                 <form name="gform" id="gform" enctype="text/plain"  action="//docs.google.com/forms/d/e/1FAIpQLSchfGttaX4Yz-gIYq1Z5NVt2yQUIebqzPZBYINWhe2lCtDpGQ/viewform" target="hidden_iframe" onsubmit="submitted=true;">
                                     <div class="form-group">
                                         <label>Nombre:</label>
@@ -123,7 +126,6 @@
                                     <button type="submit" class="btn btn-success"><span>Enviar</span></button>
                                 </form>
                                 
-                                <iframe name="hidden_iframe" id="hidden_iframe"  onload="if(submitted) {}"></iframe>
                                     
                         </div>
                     </div>
@@ -141,7 +143,6 @@
 		<!-- Bootstrap Core JavaScript -->
 		<script src="js/bootstrap.min.js"></script>
 
-        <script type="text/javascript">var submitted=false;</script>
         <script type="text/javascript">
             $('#gform').on('submit', function(e) {
             $('#gform *').fadeOut(2000);
