@@ -81,13 +81,13 @@
                     <div class="portafolio">
                         <ul class="grid list-unstyled">
                             <li> <a href="https://www.bitly.com/tunchakua" target="_blank"><img src="img/p1.png" class="img-thumbnail" alt=""/> C# XML App para WPhone 8</a></li>
-			    <li> <a href="https://bit.ly/383fhYw" target="_blank"><img src="img/CRUDcitas.jpg" class="img-thumbnail" alt=""/>CRUD básico con REACT</a></li>
+			                <li> <a href="https://bit.ly/383fhYw" target="_blank"><img src="img/CRUDcitas.jpg" class="img-thumbnail" alt=""/>CRUD básico con REACT</a></li>
                             <li> <a href="https://bit.ly/39mtPnw" target="_blank"><img src="img/terminologia.jpg" class="img-thumbnail" alt=""/>Datatables con JS</a></li>
                             <li> <a href="https://bit.ly/2RSgYSY" target="_blank"><img src="img/localStorage.jpg" class="img-thumbnail" alt=""/>LocalStorage con JS</a></li>
                             
-			    <li> <a href="https://bit.ly/3b6EVhe" target="_blank"><img src="img/AddProd.jpg" class="img-thumbnail" alt=""/>CRUD básico con JS</a></li>
-			    <li> <a href="" target="_blank"><img src="img/p2.png" class="img-thumbnail" alt=""/>Intanet con Python/Django</a></li>
-			    <li> <a href="https://codepen.io/Netza/full/pwzWEQ/" target="_blank"><img src="img/p5.png" class="img-thumbnail" alt=""/></a></li>
+			                <li> <a href="https://bit.ly/3b6EVhe" target="_blank"><img src="img/AddProd.jpg" class="img-thumbnail" alt=""/>CRUD básico con JS</a></li>
+			                <li> <a href="" target="_blank"><img src="img/p2.png" class="img-thumbnail" alt=""/>Intanet con Python/Django</a></li>
+			                <li> <a href="https://codepen.io/Netza/full/pwzWEQ/" target="_blank"><img src="img/p5.png" class="img-thumbnail" alt=""/></a></li>
                             <li> <a href="https://codepen.io/Netza/full/bRbWjm/" target="_blank"><img src="img/p6.png" class="img-thumbnail" alt=""/></a></li>
 			    
                         </ul>
@@ -129,37 +129,46 @@
                                         <label>Mensaje:</label>
                                         <textarea  name="entry.912493519" id="entry.912493519" class="form-control" placeholder="Mensaje" required="required"></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-success"><span>Enviar</span></button>
+                                    <button id="enviar" type="submit" class="btn btn-success"><span>Enviar</span></button>
                                 </form>
+                                
                                  <iframe name="hidden_iframe" id="hidden_iframe"  style="display:none;" onload="if(submitted) {}"></iframe>
                                     
                         </div>
+                        
                     </div>
                 </div>
              </div>
         </section>
         <footer>
-            <script type="text/javascript">
-                    var d = new Date();
-                    var year = d.getFullYear();
-                    document.getElementById("fecha").innerHTML ='<center>'+ '<br>' + '<strong>' +year + '</strong>'+'</center>';
-                </script>
+            <div id="fecha">
+                
+            </div>
         </footer>
 
         
-		<!-- jQuery -->
-		<script src="js/jquery.js"></script>
+		<!-- jQuery
+		<script src="js/jquery.js"></script>-->
 
 		<!-- Bootstrap Core JavaScript -->
-		<script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/app.js"></script>
         
-		<script src="js/jquery-2.1.4.min.js"></script>
+        <!--
+		<script src="js/jquery-2.1.4.min.js"></script>-->
+       <!--
         <script type="text/javascript">var submitted=false;</script>
-        <script type="text/javascript">
+       -->
+
+       <!--
+       <script type="text/javascript">
+
             $('#gform').on('submit', function(e) {
             $('#gform *').fadeOut(2000);
             $('#gform').prepend('Su envío ha sido procesado ...');
+            
             });
         </script>
+        
     </body>      
 </html>
